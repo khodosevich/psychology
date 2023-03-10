@@ -1,0 +1,257 @@
+.container{
+    max-width: 1114px;
+    margin: 0 auto;
+
+}
+
+
+.wrapper {
+
+    background-image: url("../img/Background.svg");
+
+    background-repeat: no-repeat;
+    -moz-background-size: 100%; 
+     -webkit-background-size: 100%; 
+    -o-background-size: 100%;  
+     background-size: 100%;  
+
+}
+.header {
+   
+    padding: 45px 0 50px 0;
+
+}
+.container {
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 150%;
+    
+    color: #FFFFFF;
+    text-transform: uppercase;
+    
+}
+
+
+.btn {
+}
+
+.btn-call{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 130%;
+    
+    text-align: center;
+    letter-spacing: 2.2px;
+    text-transform: uppercase;
+    
+    color: #000000;
+
+    padding: 7px 18px;
+    max-width: 154px;
+    max-height: 54px;
+    border-radius: 25px;
+    transition: 0.5s;
+
+
+}
+
+.btn-call:hover{
+    transition: 0.5s;
+    background-color: rgb(3, 3, 3);
+    color: aliceblue;
+}
+
+.content {
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.left-colum {
+    max-width: 577px;
+}
+
+.title {
+    max-width: 577px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 117%;    
+    color: #FFFFFF;
+}
+.subtitle {
+
+    padding: 37px 0 ;
+
+    max-width: 380px;
+    font-family: 'Source Sans Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+   
+    
+    color: #FFFFFF;
+}
+
+.right-colum {
+    min-width: 441px;
+    min-height: 474px;
+    background: #D9D9D9;
+   
+}
+
+.our-team {
+    margin-top: 334px;
+}
+.team-section {
+}
+.title-section__text {
+    margin-bottom: 73px;
+    text-align: center;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 75%;
+    color: #000000;
+}
+.cards {
+}
+.card-item {
+
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 101px;
+
+}
+.card-item__left {
+    height: 410px;
+    width: 615px;
+    background: #D8D8D8;
+}
+.card-item__right {
+    margin-left: 57px;
+    max-width: 380px;
+}
+.card-item__person {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 129%;
+    color: #000000;
+    
+}
+.card-item__subtitle {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222A41;
+
+    padding: 40px 0 24px 0;
+
+}
+.card-item__subtitle__second {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #222A41;
+}
+
+
+
+.add-services {
+    margin-bottom: 200px;
+}
+
+.add-services-section {
+}
+.add-services__title {
+
+    text-align: center;
+    margin-bottom: 102px;
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 75%;
+    color: #000000;
+}
+.cards-add-sevrices {
+    display: flex;
+    justify-content: space-between;
+}
+.card-add-services-item {
+
+    background: #FFFFFF;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 12px 24px rgba(0, 0, 0, 0.0236287);
+    border-radius: 19px;
+
+    min-width: 359px;
+    min-height: 390px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: 0.5s;
+
+}
+.logo-add {
+    padding-top: 53px;
+}
+.name__add {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height:  150%; 
+    
+    text-align: center;
+
+    color: #000000;
+    text-align: center;
+    padding: 32px 0 20px 0;
+}
+.subtitle__add {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height:  150%; 
+    text-align: center;
+    color: #222A41;
+    
+
+    max-width: 273px;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+
+.card-add-services-item:hover {
+    transition: 0.5s;
+    background: #bad8ff;
+  
+    
+}
